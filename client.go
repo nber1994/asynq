@@ -164,6 +164,11 @@ const (
 	defaultMaxRetry = 25
 )
 
+// TODO: godoc
+func (c *Client) SetDefaultOptions(taskType string, opts ...Option) {
+	// TODO: implement
+}
+
 // EnqueueAt schedules task to be enqueued at the specified time.
 //
 // EnqueueAt returns nil if the task is scheduled successfully, otherwise returns a non-nil error.
